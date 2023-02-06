@@ -15,7 +15,7 @@ const TodoSearch = () => {
         className="main-input"
         type="text"
         value={searchInput}
-        placeholder="search yours tasks.."
+        placeholder="Search for tasks.."
       />
       <i className="bi bi-search icon-search"></i>
       {/* <p>{searchInput}</p> */}

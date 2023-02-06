@@ -7,7 +7,7 @@ const TodoCounter = () => {
 <>
 <div className="counter-container">
 <h1>Your tasks:</h1>
-<h2>Completed {completedTodos} to {totalTodos} </h2>
+<h2>Completed {completedTodos} out of {totalTodos} </h2>
 
 </div>
 </>

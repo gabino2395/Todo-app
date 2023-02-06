@@ -20,15 +20,7 @@ const defaultTodos = [
 ];
 
 function App() {
-  // const {
-  //   error,
-  //   loading,
-  //   searchedTodos,
-  //   completeTodos,
-  //   deleteTodos,
-  //   openModal,
-  //   setOpenModal,
-  // } = useContext(TodoContext);
+
   const {
     error,
     loading,
@@ -45,9 +37,9 @@ function App() {
       <TodoCounter />
       <TodoSearch />
       <TodoList>
-        {error && <p>Esto se rompio</p>}
-        {loading && <p>Estamos cargando..</p>}
-        {!loading && !searchedTodos.length && <p>crea tu primer todo</p>}
+        {error && <p>It's not good</p>}
+        {loading && <p>Loading..</p>}
+        {!loading && !searchedTodos.length && <p>Write down your first task!</p>}
         {searchedTodos.map((todo) => (
           <TodoItem
             key={todo.text}

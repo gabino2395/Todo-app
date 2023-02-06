@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
   /* height: 100vh; */
   border: solid;
-  background-image: linear-gradient(0deg, #A626D3 10%, #ced4da 48%);
+  background-image: linear-gradient(0deg, #A626D3 10%, #ced4da 38%);
 }
 
 :root {

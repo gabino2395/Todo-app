@@ -67,5 +67,10 @@ textarea:focus {
 }
 
 .TodoForm-button--cancel {
+  transition: 0.3s ease-in-out;
   background: transparent;
+}
+.TodoForm-button--cancel:hover{
+  background: red;
+  color: var(--white);
 }
