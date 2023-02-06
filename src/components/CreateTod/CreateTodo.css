@@ -1,0 +1,68 @@
+.new-task-btn{
+  font-size: 30px;
+  border-radius: 100%;
+  border: none;
+  height: 70px;
+  width: 50px;
+  background: var(--violet);
+  background: #b53edb;
+  color: var(--white);
+padding: 10px;
+border: none;
+border: solid;
+margin-top: 50px;
+/* z-index: 1000; */
+}
+.new-task-btn:hover{
+  cursor: pointer;
+  background: var(--white);
+  color: var(--violet);
+  transition: 0.6s ;
+  border: none;
+}
+
+.btn-box{
+  /* position:absolute; */
+  /* border: solid; */
+  width: 300px;
+  display: flex;
+ justify-content: flex-end;
+ margin: 50px;
+ /* background-image: linear-gradient(0deg, #A626D3 10%, #ced4da 48%); */
+
+}
+.css-button-retro--blue {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 1px solid #000;
+  color: #000;
+  color: #fff;
+
+  background: var(--white);
+  background: transparent;
+  
+}
+.css-button-retro--blue:hover:after {
+  top: 0;
+  left: 0;
+}
+.css-button-retro--blue:after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+  background: var(--white);
+  background-color: #3d348b;
+}

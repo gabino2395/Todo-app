@@ -1,0 +1,30 @@
+.search-input-box {
+  color: green;
+  border: none;
+  box-shadow: 0 1px 6px 0 #20212447;
+  width: 300px;
+  border-radius: 5px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.main-input {
+  background: inherit;
+  border: none;
+}
+.icon-search{
+  color: var(--violet);
+}
+/* .main-input:focus{
+} */
+.main-input:focus{
+  border: 0px;
+  /* background-color: transparent; */
+  border-color: red;
+  color: var(--violet);
+  outline:var(--violet);
+}
