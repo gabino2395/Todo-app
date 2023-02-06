@@ -23,7 +23,7 @@ Para la creacion de este proyecto se utilizo:
 
 Se puede ver el proyecto aqui:
 
-[Let's Do](https://salitre.netlify.app)
+[Let's Do](https://gabino2395.github.io/Todo-app/)
 
 
   
