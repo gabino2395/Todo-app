@@ -35,7 +35,7 @@ function App() {
       <Greeting />
 
       <TodoCounter />
-      <TodoSearch />
+      {/* <TodoSearch /> */}
       <TodoList>
         {error && <p>It's not good</p>}
         {loading && <p>Loading..</p>}
